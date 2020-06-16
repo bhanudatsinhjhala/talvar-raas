@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+        <!-- jQuery library -->
+        <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.min.js"></script>
+        <!-- Latest compiled and manified JavaScript -->
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" type="text/css" href="style1.css"> 
+          <style>
+              .panel-heading{
+                  padding-top: 1px;
+              }
+              @media(max-width:767px){   .s1{
+                                           margin-left: 40px;
+                                       }}
+ a{
+                color: #fff;
+                text-decoration: none;
+            }
+   a:hover{
+                color: #fff;
+                 text-decoration: none;
+            }
+          </style>
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse navbar-fixed">
+            <div class="navbar">
+                <div class="website">
+                    <div class="navbar-header">
+                        <p><a href="index.html" class="navbar-brand">&#x2694 Rajputana &#x2694</a></p>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign"></span>
+About us</a></li>
+ <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span>
+Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <div class="container login">
+        <div class="row row_style">
+            <div class="col-md-4 col-xs-offset-1 col-xs-9 col-sm-offset-3 col-sm-6 col-md-offset-4 s1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <center> <h3>Login</h3></center>
+                    </div>
+                    <div class=" panel-body">
+                             <form method="post" action="login_submit.php">
+                                 <div class="form-group">
+                                     <b>Email:</b>
+                <input type="email" name="email" class="form-control" placeholder="E-mail" required><br>
+                                 </div>
+                                 <div class="form-group">
+                                     <b>Password:</b>
+                <input type="password" name="pass" class="form-control" placeholder="password"><br>
+                                 </div>
+                           <button type="submit"   class="btn form-control" name="login"><a href="content.html">Login</a></button>
+             <br><br>
+            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+<footer class="footer">
+            <div class="website">
+                <center>
+                    <p>Copyright <span class="glyphicon glyphicon-copyright-mark"></span>
+                    Copyright © Talvar Ras. All Rights Reserved|Contact Us: +91-8448444853.</p>
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>
